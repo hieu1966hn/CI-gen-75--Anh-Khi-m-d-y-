@@ -1,0 +1,37 @@
+p{
+    color: blue;
+}
+.text-red{
+    color: red;
+}
+#my-p{
+    font-size: x-large;
+}
+
+.text-red, .text-gray{
+    font-size: 30px;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+img:hover{
+    transform: scale(1.5);
+}
+
+#hover:hover{
+    color: yellow;
+}
+.first-child, .second-child{
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    margin-right: 5px;
+    /* display: none; */
+}
+.box{
+    display: flex;
+}
+.size-30px{
+    font-size: 30px;
+}

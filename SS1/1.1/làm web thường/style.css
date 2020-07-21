@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* thuộc tính box-sizing: là để đo khoảng cách từ boder vào -> : về nhà đọc thêm. */
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    /* background-color: skyblue; */
+    display: flex;
+}
+.box-header{
+    background-color: #dae8fc;
+    width: 200px;
+    height: 700px;
+    text-align: center;
+}
+.box-content{
+    /* background-color: yellow; */
+    /* width: 800px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* 
+    về học thêm 2 thuộc tính sau :
+    flex-basis: 0;
+    flex-grow: 1; */
+}
+.box-footer{
+    background-color: #d5e8d4;
+    width: 200px;
+    height: 800px;
+    text-align: center ;
+}
+.p-1, .p-2{
+background-color: slateblue;
+}
+.p-3, .p-4{
+background-color: rgb(189, 53, 189);
+}
